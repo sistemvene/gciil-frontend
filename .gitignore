@@ -1,0 +1,9 @@
+/application/logs/
+/writable/cache/
+/writable/debugbar/
+/writable/session/
+/writable/uploads/
+/writable/cache/
+/.env
+/vendor/
+/composer.lock
