@@ -1,9 +1,31 @@
-/application/logs/
-/writable/cache/
-/writable/debugbar/
-/writable/session/
-/writable/uploads/
-/writable/cache/
-/.env
+# Ignora entornos y configuraciones locales
+.env
+.env.local
+.env.*.local
+
+# Ignora dependencias instaladas
 /vendor/
-/composer.lock
+node_modules/
+
+# Ignora archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignora carpetas del IDE/editor
+.vscode/
+.idea/
+
+# Ignora archivos comprimidos o backups
+*.zip
+*.bak
+*.tmp
+
+# Ignora archivos temporales
+*.swp
+*.swo
+
+# Ignora configuraciones locales de Apache
+*.conf
+*.local
+*.vhost
